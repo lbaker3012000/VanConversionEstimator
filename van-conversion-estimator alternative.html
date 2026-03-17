@@ -1,0 +1,1757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Van Conversion Cost Estimator UK 2025 | Free DIY & Pro Budget Tool</title>
+<meta name="description" content="Free UK van conversion cost estimator for 2025. Calculate your campervan build budget across 30 features — insulation, solar, electrics, kitchen, heating and more. DIY or professional costs side by side.">
+<meta name="keywords" content="van conversion cost UK, campervan conversion cost, van conversion budget, DIY campervan cost, sprinter conversion cost, ford transit campervan cost, campervan build cost 2025">
+<link rel="canonical" href="https://vanconversioncost.co.uk/">
+<meta property="og:title" content="Van Conversion Cost Estimator UK 2025">
+<meta property="og:description" content="Free tool: calculate your campervan build budget. 30 features, real UK 2025 prices, DIY vs professional costs.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://vanconversioncost.co.uk/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Van Conversion Cost Estimator UK 2025">
+<meta name="twitter:description" content="Free UK campervan build budget calculator. 30 features, real 2025 prices.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a van conversion cost in the UK?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Van conversion costs in the UK range from around £1,500 for a basic DIY build to over £30,000 for a fully professional fit-out. The average DIY campervan conversion costs between £4,000 and £12,000 depending on van size, features chosen, and quality of components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it cheaper to convert a van yourself?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — DIY van conversions typically cost 40–60% less than professional conversions. A professional build that costs £15,000 might cost £6,000–£9,000 in parts if you do the work yourself. The main caveat is that gas and electrical work should still be inspected by qualified professionals even on DIY builds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a van conversion take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The average DIY van conversion takes around 445 hours of work. Most part-time builders complete a full conversion in 3–6 months working weekends. A professional conversion company can typically complete a build in 2–6 weeks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the most expensive part of a van conversion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The electrical system is typically the most expensive single component in a van conversion, costing £700–£1,800 for a professional install. Lithium battery upgrades, solar panels, and custom cabinetry are also major costs. For professional full builds, labour is often the largest expense overall."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a Gas Safe certificate for my van conversion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can legally install gas yourself for personal use in a van conversion in the UK, but you must be competent to do so. If you plan to rent the van out, a Gas Safe registered engineer must inspect and certify the gas system to standard BS EN 1949. A gas safety certificate costs approximately £80–£150."
+      }
+    }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+  --cream:    #F7F3EC;
+  --cream2:   #EDE7DB;
+  --cream3:   #E0D8CC;
+  --cream4:   #D0C8B8;
+  --ink:      #1C1A15;
+  --ink2:     #3D3A30;
+  --ink3:     #6B6558;
+  --ink4:     #9C9488;
+  --white:    #FDFAF5;
+  --line:     rgba(28,26,21,0.1);
+  --line2:    rgba(28,26,21,0.16);
+  --line3:    rgba(28,26,21,0.25);
+  --accent:   #2B5C3F;
+  --accent2:  #3D8056;
+  --accent-d: rgba(43,92,63,0.1);
+  --accent-d2:rgba(43,92,63,0.18);
+  --rust:     #A84030;
+  --rust-d:   rgba(168,64,48,0.1);
+  --gold:     #8C6E20;
+  --gold-d:   rgba(140,110,32,0.12);
+  --blue:     #2A4F7C;
+  --blue-d:   rgba(42,79,124,0.1);
+  --green:    #2B6B3F;
+  --green-d:  rgba(43,107,63,0.12);
+  --red:      #B03030;
+  --red-d:    rgba(176,48,48,0.1);
+  --amber:    #906820;
+  --amber-d:  rgba(144,104,32,0.1);
+  --r:        6px;
+  --r2:       10px;
+  --serif:    'Playfair Display', Georgia, serif;
+  --sans:     'Inter', system-ui, sans-serif;
+  --mono:     'SFMono-Regular', 'Consolas', monospace;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--sans);
+  background: var(--cream);
+  color: var(--ink);
+  font-size: 14px;
+  line-height: 1.65;
+  min-height: 100vh;
+}
+
+/* ── TOPBAR ─────────────────────────────────────────── */
+.topbar {
+  border-bottom: 1px solid var(--line2);
+  padding: 0 2.5rem;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: rgba(247,243,236,0.96);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 100;
+}
+.topbar-left { display: flex; align-items: center; gap: 20px; }
+.topbar-logo {
+  font-family: var(--serif);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: .01em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.topbar-logo-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.topbar-tag {
+  font-size: 11px;
+  color: var(--ink3);
+  letter-spacing: .04em;
+  font-weight: 400;
+}
+.topbar-right {
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent2);
+  letter-spacing: .02em;
+}
+
+/* ── HERO ───────────────────────────────────────────── */
+.hero {
+  background: var(--ink);
+  color: var(--white);
+  padding: 5rem 2.5rem 4rem;
+  position: relative;
+  overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Ccircle cx='30' cy='30' r='1' fill='rgba(255,255,255,0.03)'/%3E%3C/svg%3E");
+}
+.hero-grid { max-width: 1020px; margin: 0 auto; position: relative; }
+.hero-label {
+  font-size: 11px;
+  font-weight: 500;
+  color: rgba(253,250,245,0.5);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+}
+.hero h1 {
+  font-family: var(--serif);
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  font-weight: 400;
+  line-height: 1.1;
+  color: var(--white);
+  letter-spacing: -.01em;
+  margin-bottom: 1.25rem;
+}
+.hero h1 strong {
+  font-weight: 600;
+  font-style: italic;
+  color: rgba(253,250,245,0.75);
+}
+.hero-desc {
+  font-size: 16px;
+  color: rgba(253,250,245,0.6);
+  max-width: 500px;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+/* ── MAIN WRAP ──────────────────────────────────────── */
+.wrap {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 0 2.5rem 6rem;
+}
+
+/* ── SECTION ROWS ───────────────────────────────────── */
+.sec-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 2.75rem 0 1.1rem;
+  border-bottom: 1px solid var(--line2);
+  margin-bottom: 1.25rem;
+}
+.sec-id {
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-d);
+  border: 1px solid rgba(43,92,63,0.2);
+  padding: 3px 10px;
+  border-radius: 20px;
+  letter-spacing: .07em;
+  flex-shrink: 0;
+}
+.sec-title {
+  font-family: var(--serif);
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--ink);
+}
+.sec-hint {
+  font-size: 11px;
+  color: var(--ink4);
+  margin-left: auto;
+  font-style: italic;
+}
+
+/* ── CHOICE CARDS ───────────────────────────────────── */
+.choice-grid { display: grid; gap: 10px; }
+.choice-grid-3 { grid-template-columns: repeat(3,1fr); }
+.choice-grid-2 { grid-template-columns: repeat(2,1fr); }
+
+.choice-btn {
+  background: var(--white);
+  border: 1.5px solid var(--line2);
+  border-radius: var(--r2);
+  padding: 1.2rem 1.3rem;
+  cursor: pointer;
+  transition: border-color .15s, box-shadow .15s, transform .1s;
+  text-align: left;
+  color: var(--ink);
+  user-select: none;
+  position: relative;
+}
+.choice-btn:hover { border-color: var(--line3); box-shadow: 0 2px 12px rgba(28,26,21,0.08); transform: translateY(-1px); }
+.choice-btn.on { border-color: var(--accent); background: #F0F5F1; box-shadow: 0 0 0 3px rgba(43,92,63,0.1); }
+.choice-btn.on .cb-title { color: var(--accent); }
+.cb-icon { font-size: 22px; margin-bottom: 10px; display: block; }
+.cb-title { font-size: 14px; font-weight: 600; color: var(--ink); margin-bottom: 4px; }
+.cb-desc { font-size: 12px; color: var(--ink3); line-height: 1.5; }
+.cb-tick {
+  position: absolute; top: 12px; right: 12px;
+  width: 18px; height: 18px;
+  border-radius: 50%;
+  background: var(--accent);
+  display: flex; align-items: center; justify-content: center;
+  opacity: 0; transition: opacity .15s;
+}
+.choice-btn.on .cb-tick { opacity: 1; }
+.cb-tick svg { width: 9px; height: 9px; stroke: white; fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+
+/* ── SKILL NOTE ─────────────────────────────────────── */
+.skill-note {
+  margin-top: 10px;
+  background: var(--gold-d);
+  border: 1px solid rgba(140,110,32,0.2);
+  border-radius: var(--r);
+  padding: .75rem 1rem;
+  font-size: 12px;
+  color: var(--gold);
+  display: flex;
+  gap: 10px;
+  line-height: 1.6;
+  font-style: italic;
+}
+.skill-note-pre { opacity: .5; flex-shrink: 0; font-style: normal; font-family: var(--mono); }
+
+/* ── SKILL GROUPS ───────────────────────────────────── */
+.skill-group { margin-bottom: 8px; }
+
+.sg-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: .9rem 1.1rem;
+  background: var(--white);
+  border: 1.5px solid var(--line2);
+  border-radius: var(--r) var(--r) 0 0;
+  border-bottom: none;
+  user-select: none;
+  cursor: pointer;
+  transition: background .13s;
+}
+.sg-header:hover { background: var(--cream2); }
+.sg-header.collapsed { border-radius: var(--r); border-bottom: 1.5px solid var(--line2); }
+
+.sg-color {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.sg-title {
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink);
+  flex: 1;
+  letter-spacing: .01em;
+}
+.sg-skill-label {
+  font-size: 10px;
+  padding: 2px 9px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-style: italic;
+}
+.sg-count {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--ink4);
+}
+.sg-chevron {
+  font-size: 9px;
+  color: var(--ink4);
+  transition: transform .2s;
+}
+.sg-header.collapsed .sg-chevron { transform: rotate(-90deg); }
+
+.sg-body {
+  border: 1.5px solid var(--line2);
+  border-top: none;
+  border-radius: 0 0 var(--r) var(--r);
+  overflow: hidden;
+}
+.sg-body.hidden { display: none; }
+
+/* ── FEATURE ROW ────────────────────────────────────── */
+.feat {
+  display: grid;
+  grid-template-columns: 28px 1fr auto auto;
+  gap: 14px;
+  align-items: center;
+  padding: .9rem 1.1rem .9rem 1.25rem;
+  border-bottom: 1px solid var(--line);
+  transition: background .12s;
+  cursor: pointer;
+  user-select: none;
+  border-left: 3px solid transparent;
+  background: var(--white);
+}
+.feat:last-child { border-bottom: none; }
+.feat:hover { background: var(--cream); }
+.feat.off { opacity: .5; background: var(--white); }
+.feat.off .feat-name { color: var(--ink); }
+.feat:not(.off) { border-left-color: var(--accent); background: #F4F8F5; }
+.feat:not(.off):hover { background: #EDF4EF; }
+
+.feat-emoji { font-size: 17px; text-align: center; line-height: 1; }
+.feat-info { min-width: 0; }
+
+.feat-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex-wrap: wrap;
+  line-height: 1.4;
+  margin-bottom: 2px;
+}
+.feat-sub {
+  font-size: 11px;
+  color: var(--ink3);
+  line-height: 1.5;
+}
+
+/* badges */
+.badge {
+  font-size: 9px;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 3px;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-family: var(--mono);
+}
+.b-legal { background: var(--red-d); color: var(--red); border: 1px solid rgba(176,48,48,0.2); }
+.b-gas   { background: var(--blue-d); color: var(--blue); border: 1px solid rgba(42,79,124,0.2); }
+
+/* info button */
+.info-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px; height: 15px;
+  border-radius: 50%;
+  border: 1px solid var(--ink4);
+  background: none;
+  color: var(--ink4);
+  font-size: 9px;
+  font-weight: 600;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: border-color .13s, color .13s, background .13s;
+  vertical-align: middle;
+  margin-left: 2px;
+  line-height: 1;
+}
+.info-btn:hover { border-color: var(--blue); color: var(--blue); background: var(--blue-d); }
+
+/* right-side controls container */
+.feat-right-stack { display: flex; flex-direction: column; align-items: flex-end; gap: 5px; flex-shrink: 0; }
+
+/* mode toggle */
+.feat-mode {
+  display: flex;
+  border: 1.5px solid var(--line2);
+  border-radius: var(--r);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mode-pill {
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .04em;
+  padding: 5px 11px;
+  cursor: pointer;
+  background: var(--cream2);
+  color: var(--ink4);
+  border: none;
+  transition: background .12s, color .12s;
+  line-height: 1.35;
+  text-align: center;
+  white-space: nowrap;
+}
+.mode-pill:not(:last-child) { border-right: 1.5px solid var(--line2); }
+.mode-pill:hover { background: var(--cream3); color: var(--ink); }
+.mode-pill.diy { background: rgba(43,107,63,0.12); color: var(--green); }
+.mode-pill.pro { background: var(--gold-d); color: var(--gold); }
+.mode-pill.dis { opacity: .25; pointer-events: none; }
+
+/* tier select */
+.tier-select {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--ink2);
+  background: var(--cream2);
+  border: 1.5px solid var(--line2);
+  border-radius: var(--r);
+  padding: 4px 26px 4px 9px;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%236B6558' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  transition: border-color .13s;
+  max-width: 185px;
+}
+.tier-select:hover { border-color: var(--line3); }
+.tier-select:focus { border-color: var(--accent); }
+.tier-select.dis { opacity: .25; pointer-events: none; }
+.tier-select option { background: var(--white); color: var(--ink); }
+
+/* custom cost */
+.custom-cost-wrap { display: inline-flex; align-items: center; gap: 5px; margin-left: 6px; vertical-align: middle; }
+.custom-cost-label { font-size: 12px; color: var(--ink3); font-weight: 500; }
+.custom-cost-input {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--ink);
+  background: var(--white);
+  border: 1.5px solid var(--accent);
+  border-radius: var(--r);
+  padding: 3px 8px;
+  width: 80px;
+  outline: none;
+}
+.custom-cost-input:focus { border-color: var(--accent2); }
+.custom-cost-input::placeholder { color: var(--ink4); }
+
+/* toggle switch */
+.tog { position: relative; width: 38px; height: 22px; flex-shrink: 0; }
+.tog input { opacity: 0; width: 0; height: 0; position: absolute; }
+.tog-t {
+  position: absolute; inset: 0;
+  background: var(--cream3);
+  border: 1.5px solid var(--line2);
+  border-radius: 11px;
+  cursor: pointer;
+  transition: background .18s, border-color .18s;
+}
+.tog input:checked ~ .tog-t { background: var(--accent-d2); border-color: var(--accent); }
+.tog-t::after {
+  content: '';
+  position: absolute;
+  width: 16px; height: 16px;
+  left: 2px; top: 2px;
+  border-radius: 50%;
+  background: var(--ink4);
+  transition: transform .18s, background .18s;
+  box-shadow: 0 1px 3px rgba(0,0,0,.15);
+}
+.tog input:checked ~ .tog-t::after { transform: translateX(16px); background: var(--accent); }
+
+/* ── CONSTRAINTS ─────────────────────────────────────── */
+.feat.blocked { opacity: .3; cursor: not-allowed; pointer-events: none; }
+.feat.blocked .tog { pointer-events: none; }
+.feat.constrained { border-left-color: var(--amber) !important; background: rgba(144,104,32,0.05) !important; }
+.feat.constrained:hover { background: rgba(144,104,32,0.08) !important; }
+.b-warn { background: var(--amber-d); color: var(--amber); border: 1px solid rgba(144,104,32,0.25); }
+.b-no   { background: var(--red-d); color: var(--red); border: 1px solid rgba(176,48,48,0.25); }
+.constraint-msg { font-size: 11px; color: var(--amber); margin-top: 4px; font-style: italic; line-height: 1.4; }
+.constraint-msg.blocked-msg { color: var(--red); }
+
+/* ── RESULTS ─────────────────────────────────────────── */
+.results-section { margin-top: 2.5rem; }
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.res-box {
+  background: var(--white);
+  border: 1.5px solid var(--line2);
+  border-radius: var(--r);
+  padding: 1.2rem 1.3rem;
+}
+.res-box:first-child { border-top: 3px solid var(--ink3); }
+.res-box:nth-child(3) { border-top: 3px solid var(--accent); }
+.res-box:last-child { border-top: 3px solid var(--green); }
+.res-label {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--ink3);
+  margin-bottom: 8px;
+}
+.res-val {
+  font-family: var(--serif);
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: var(--ink);
+  line-height: 1;
+}
+.res-val.orange { color: var(--accent); }
+.res-val.green  { color: var(--green); }
+.res-sub { font-size: 10px; color: var(--ink4); margin-top: 6px; line-height: 1.5; }
+
+/* breakdown */
+.breakdown-wrap {
+  background: var(--white);
+  border: 1.5px solid var(--line2);
+  border-radius: var(--r);
+  overflow: hidden;
+}
+.breakdown-table { width: 100%; border-collapse: collapse; }
+.breakdown-table thead th {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--ink3);
+  padding: .65rem 1.1rem;
+  text-align: left;
+  background: var(--cream2);
+  border-bottom: 1.5px solid var(--line2);
+}
+.breakdown-table thead th:last-child { text-align: right; }
+.breakdown-table tbody td {
+  padding: .6rem 1.1rem;
+  font-size: 12px;
+  color: var(--ink2);
+  border-bottom: 1px solid var(--line);
+  vertical-align: middle;
+}
+.breakdown-table tbody tr:last-child td { border-bottom: none; }
+.breakdown-table tbody td:last-child {
+  text-align: right;
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.breakdown-table tbody tr:hover { background: var(--cream); }
+
+.tmode {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin-left: 6px;
+}
+.tmode.diy { background: var(--green-d); color: var(--green); }
+.tmode.pro { background: var(--gold-d); color: var(--gold); }
+
+.empty-row td {
+  text-align: center;
+  color: var(--ink4);
+  font-size: 12px;
+  font-style: italic;
+  padding: 2.5rem !important;
+}
+.cont-row td {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--ink3) !important;
+  background: var(--cream) !important;
+  border-top: 1px dashed var(--line2) !important;
+}
+.total-row td {
+  background: var(--accent-d) !important;
+  font-weight: 700;
+  color: var(--accent) !important;
+  font-family: var(--serif);
+  font-size: 14px;
+  border-top: 1.5px solid rgba(43,92,63,0.25) !important;
+  border-bottom: none !important;
+}
+
+/* ── INFO CARDS ─────────────────────────────────────── */
+.info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 2rem; }
+.info-card { border-radius: var(--r); border: 1px solid transparent; padding: 1.1rem 1.25rem; }
+.info-card.red   { background: var(--red-d);   border-color: rgba(176,48,48,.18);  }
+.info-card.blue  { background: var(--blue-d);  border-color: rgba(42,79,124,.18); }
+.info-card.green { background: var(--green-d); border-color: rgba(43,107,63,.18); }
+.info-card.amber { background: var(--amber-d); border-color: rgba(144,104,32,.18); }
+.info-card-title {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  margin-bottom: .65rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.info-card.red   .info-card-title { color: var(--red);   }
+.info-card.blue  .info-card-title { color: var(--blue);  }
+.info-card.green .info-card-title { color: var(--green); }
+.info-card.amber .info-card-title { color: var(--amber); }
+.info-card ul { padding-left: 1rem; }
+.info-card li { font-size: 12px; color: var(--ink2); margin-bottom: 5px; line-height: 1.6; }
+
+/* ── ACTION BUTTONS ─────────────────────────────────── */
+.action-btn {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: .03em;
+  padding: 5px 13px;
+  border-radius: 4px;
+  border: 1.5px solid var(--line2);
+  background: var(--white);
+  color: var(--ink2);
+  cursor: pointer;
+  transition: background .13s, border-color .13s;
+}
+.action-btn:hover { background: var(--cream2); border-color: var(--line3); }
+.action-btn.primary { border-color: var(--accent); background: var(--accent-d); color: var(--accent); }
+.action-btn.primary:hover { background: var(--accent-d2); }
+
+/* ── TIPS ───────────────────────────────────────────── */
+.tips-row { display: grid; grid-template-columns: repeat(3,1fr); gap: 10px; margin-top: 2rem; }
+.tip-card {
+  background: var(--white);
+  border: 1.5px solid var(--line2);
+  border-radius: var(--r);
+  padding: 1.1rem 1.2rem;
+  border-left: 3px solid var(--cream3);
+  transition: border-left-color .15s;
+}
+.tip-card:hover { border-left-color: var(--accent); }
+.tip-icon { font-size: 17px; margin-bottom: 7px; }
+.tip-title { font-size: 11px; font-weight: 700; color: var(--ink); margin-bottom: 5px; letter-spacing: .03em; text-transform: uppercase; }
+.tip-txt { font-size: 12px; color: var(--ink3); line-height: 1.65; }
+
+/* ── FAQ SECTION ─────────────────────────────────────── */
+.faq-section { margin-top: 2.5rem; }
+.faq-item { border-bottom: 1px solid var(--line2); overflow: hidden; }
+.faq-item:first-child { border-top: 1px solid var(--line2); }
+.faq-q {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.1rem 0;
+  cursor: pointer;
+  user-select: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--ink);
+  transition: color .13s;
+}
+.faq-q:hover { color: var(--accent); }
+.faq-chevron { font-size: 10px; color: var(--ink4); flex-shrink: 0; transition: transform .2s; }
+.faq-item.open .faq-chevron { transform: rotate(180deg); }
+.faq-item.open .faq-q { color: var(--accent); }
+.faq-a { font-size: 13px; color: var(--ink2); line-height: 1.8; padding: 0 0 1.1rem; display: none; }
+.faq-item.open .faq-a { display: block; }
+.faq-a strong { color: var(--ink); font-weight: 600; }
+
+/* ── SEO INTRO ─────────────────────────────────────── */
+.seo-intro { max-width: 1020px; margin: 0 auto; padding: 2rem 2.5rem 0; border-bottom: 1px solid var(--line2); padding-bottom: 2rem; }
+.seo-intro p { font-size: 14px; color: var(--ink2); line-height: 1.85; margin-bottom: .75rem; max-width: 720px; }
+.seo-intro p:last-child { margin-bottom: 0; }
+.seo-intro strong { color: var(--ink); font-weight: 600; }
+
+/* ── AD SLOTS ──────────────────────────────────────────── */
+.ad-slot { background: var(--cream2); border: 1px dashed var(--line2); border-radius: var(--r); display: flex; align-items: center; justify-content: center; color: var(--ink4); font-size: 10px; letter-spacing: .06em; text-transform: uppercase; overflow: hidden; }
+.ad-slot-leaderboard { width: 100%; height: 90px; margin: 1.5rem 0; }
+.ad-slot-rectangle   { width: 300px; height: 250px; margin: 0 auto 1.5rem; }
+.ad-slot-banner      { width: 100%; height: 90px; margin: 1.5rem 0; }
+
+/* ── PROGRESS BAR ────────────────────────────────────── */
+.progress-wrap { margin-top: 1.75rem; max-width: 420px; }
+.progress-track { height: 2px; background: rgba(253,250,245,0.15); border-radius: 2px; overflow: hidden; }
+.progress-fill { height: 100%; background: rgba(253,250,245,0.6); border-radius: 2px; width: 0%; transition: width .3s ease; }
+.progress-label { font-size: 11px; color: rgba(253,250,245,0.45); margin-top: 6px; letter-spacing: .04em; }
+
+/* ── FOOTER ─────────────────────────────────────────── */
+footer {
+  background: var(--ink);
+  color: rgba(253,250,245,0.4);
+  border-top: none;
+  padding: 2.5rem 2.5rem;
+  text-align: center;
+  font-size: 11px;
+  line-height: 1.9;
+}
+footer a { color: rgba(253,250,245,0.5); text-decoration: none; border-bottom: 1px solid rgba(253,250,245,0.2); }
+footer a:hover { color: rgba(253,250,245,0.8); }
+
+/* ── RESPONSIVE ─────────────────────────────────────── */
+@media (max-width: 800px) {
+  .results-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 720px) {
+  .choice-grid-3 { grid-template-columns: 1fr 1fr; }
+  .feat { grid-template-columns: 24px 1fr auto auto; gap: 10px; }
+  .info-grid { grid-template-columns: 1fr; }
+  .tips-row { grid-template-columns: 1fr 1fr; }
+  .hero { padding: 3.5rem 1.5rem 3rem; }
+  .wrap { padding: 0 1.5rem 5rem; }
+  .seo-intro { padding: 1.5rem; }
+}
+@media (max-width: 480px) {
+  .topbar { padding: 0 1.25rem; }
+  .choice-grid-3, .choice-grid-2 { grid-template-columns: 1fr; }
+  .results-grid { grid-template-columns: 1fr 1fr; }
+  .tips-row { grid-template-columns: 1fr; }
+  .feat { grid-template-columns: 1fr auto auto; gap: 8px; }
+  .feat-emoji { display: none; }
+  .sec-hint { display: none; }
+  .sg-skill-label { display: none; }
+}
+
+@media print {
+  .topbar, .ad-slot, .action-btn, .info-btn, .feat-mode, .feat-tier, .tog, .tips-row, #cont-toggle, .faq-section { display: none !important; }
+  body { background: white; color: #111; font-size: 12px; }
+  .hero { background: #1C1A15; padding: 1.5rem 2rem; }
+  .wrap, .seo-intro { padding: 1rem 2rem; max-width: 100%; }
+  .feat { border-color: #ddd; opacity: 1 !important; background: white !important; }
+  .feat:not(.off) { background: #f8faf8 !important; }
+  .sg-header { background: #f5f5f0; border-color: #ddd; }
+  .sg-body { border-color: #ddd; }
+  .sg-body.hidden { display: block !important; }
+  .res-box { background: #f9f9f7; border-color: #ddd; }
+  .breakdown-wrap { border-color: #ddd; }
+  .breakdown-table thead th { background: #f0f0ec; color: #666; border-color: #ddd; }
+  .breakdown-table tbody td { color: #333; border-color: #eee; }
+  .total-row td { background: #f0f5f1 !important; color: #2B5C3F !important; }
+}
+</style>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<nav class="topbar">
+  <div class="topbar-left">
+    <div class="topbar-logo">
+      <span class="topbar-logo-dot"></span>
+      VAN BUILD ESTIMATOR
+    </div>
+    <span class="topbar-tag">UK · 2025</span>
+  </div>
+  <div class="topbar-right" id="topbar-total">£0 estimated</div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-rule"></div>
+  <div class="hero-grid">
+    <div>
+      <div class="hero-label">UK 2025 · Free tool</div>
+      <h1>Van conversion<br><strong>cost estimator</strong></h1>
+      <p class="hero-desc">Pick your features. Set each one as DIY or professional. Get a realistic build budget in minutes — no sign-up, no fluff.</p>
+      <div class="progress-wrap">
+        <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+        <div class="progress-label" id="progress-label">0 of 30 features selected</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="wrap">
+<!-- SEO INTRO -->
+<div class="seo-intro">
+  <p>Converting a van into a campervan is one of the most rewarding — and expensive — DIY projects you can take on. <strong>Van conversion costs in the UK typically range from £1,500 for a basic self-build to over £30,000 for a fully professional fit-out</strong>, depending on your van size, the features you include, and how much of the work you do yourself. This free tool helps you build a realistic budget before you spend a penny.</p>
+  <p>The average DIY campervan conversion takes around <strong>445 hours</strong> and involves everything from insulation and electrics to bespoke cabinetry, solar panels, and plumbing. Costs vary significantly between a <strong>budget Chinese diesel heater (£100–300)</strong> and a branded Webasto, or between flatpack IKEA kitchen units and custom cabinetry — which is why this estimator lets you set both the feature and the quality tier for each line item.</p>
+  <p>Whether you're planning a weekend warrior build on a small Ford Transit Connect or a full-time off-grid home on a Mercedes Sprinter LWB, this tool covers 30 features across 8 skill-grouped categories — from basic preparation like rust treatment and sound deadening, through to solar power systems, gas hobs, water plumbing, and exterior accessories like Fiamma awnings and roof racks. <strong>All prices are based on real UK 2025 market data</strong> from conversion companies, builder communities, and supplier pricing.</p>
+</div>
+
+
+<!-- AD SLOT: Leaderboard (728×90) — replace with your ad network tag -->
+<div class="ad-slot ad-slot-leaderboard">
+  <!-- Ad: 728×90 Leaderboard — Google AdSense / Mediavine / Ezoic -->
+</div>
+
+<!-- ── STEP 1: VAN SIZE ─────────────────────────────── -->
+<div class="sec-row">
+  <span class="sec-id">01</span>
+  <span class="sec-title">Van size</span>
+  <h2 style="display:none;">Step 1: Choose your van size for conversion</h2>
+  <span class="sec-hint">Scales material quantities &amp; labour</span>
+</div>
+<div class="choice-grid choice-grid-3" id="size-grid">
+  <div class="choice-btn on" data-val="small" onclick="pick('size',this)">
+    <div class="cb-tick"><svg viewBox="0 0 8 7"><polyline points="1,3.5 3,6 7,1"/></svg></div>
+    <span class="cb-icon">🚐</span>
+    <div class="cb-title">Small</div>
+    <div class="cb-desc">VW Caddy · Transit Connect · Berlingo</div>
+    <div class="cb-desc" style="margin-top:6px;color:var(--txt3);font-size:11px;">~4.4m long · ~1.8m wide · ~1.9m high<br>Load bay: ~1.5m · ideal for solo weekenders</div>
+  </div>
+  <div class="choice-btn" data-val="medium" onclick="pick('size',this)">
+    <div class="cb-tick"><svg viewBox="0 0 8 7"><polyline points="1,3.5 3,6 7,1"/></svg></div>
+    <span class="cb-icon">🚌</span>
+    <div class="cb-title">Medium</div>
+    <div class="cb-desc">Transit · Sprinter SWB · Ducato</div>
+    <div class="cb-desc" style="margin-top:6px;color:var(--txt3);font-size:11px;">~5.5m long · ~2.0m wide · ~2.5m high<br>Load bay: ~2.6m · fits a fixed bed + kitchen</div>
+  </div>
+  <div class="choice-btn" data-val="large" onclick="pick('size',this)">
+    <div class="cb-tick"><svg viewBox="0 0 8 7"><polyline points="1,3.5 3,6 7,1"/></svg></div>
+    <span class="cb-icon">🚛</span>
+    <div class="cb-title">Large LWB</div>
+    <div class="cb-desc">Sprinter LWB · Crafter · Master LWB</div>
+    <div class="cb-desc" style="margin-top:6px;color:var(--txt3);font-size:11px;">~6.9m long · ~2.0m wide · ~2.8m high<br>Load bay: ~4.3m · full-time living builds</div>
+  </div>
+</div>
+
+<!-- ── STEP 2: SKILL LEVEL ───────────────────────────── -->
+<div class="sec-row">
+  <span class="sec-id">02</span>
+  <span class="sec-title">Your skill level</span>
+  <span class="sec-hint">Sets defaults — override any item below</span>
+</div>
+<div class="choice-grid choice-grid-2" id="skill-grid">
+  <div class="choice-btn on" data-val="beginner" onclick="pick('skill',this)">
+    <div class="cb-tick"><svg viewBox="0 0 8 7"><polyline points="1,3.5 3,6 7,1"/></svg></div>
+    <span class="cb-icon">🔰</span>
+    <div class="cb-title">Beginner</div>
+    <div class="cb-desc">First build · learning as you go</div>
+  </div>
+  <div class="choice-btn" data-val="confident" onclick="pick('skill',this)">
+    <div class="cb-tick"><svg viewBox="0 0 8 7"><polyline points="1,3.5 3,6 7,1"/></svg></div>
+    <span class="cb-icon">🔧</span>
+    <div class="cb-title">Confident DIYer</div>
+    <div class="cb-desc">Good with tools · basic electrics</div>
+  </div>
+
+</div>
+<div class="skill-note">
+  <span class="skill-note-pre">//</span>
+  <span id="skill-note-txt">BEGINNER MODE — gas, electrics, solar &amp; plumbing defaulted to professional. Override any item below.</span>
+</div>
+
+<!-- ── STEP 3: FEATURES ──────────────────────────────── -->
+<div class="sec-row">
+  <span class="sec-id">03</span>
+  <span class="sec-title">Select features</span>
+  <h2 style="display:none;">Step 3: Select van conversion features and costs</h2>
+  <span class="sec-hint">Toggle on/off · set DIY or Pro per item</span>
+</div>
+
+<div id="feature-groups"><!-- rendered by JS --></div>
+
+<!-- ── RESULTS ───────────────────────────────────────── -->
+<div class="results-section">
+  <div class="sec-row">
+    <span class="sec-id">04</span>
+    <span class="sec-title">Your estimate</span>
+    <div style="display:flex;align-items:center;gap:8px;margin-left:auto;flex-wrap:wrap;">
+    <button class="action-btn" onclick="resetAll()" title="Clear all selections">Reset</button>
+    <button class="action-btn" onclick="printEstimate()" title="Print or save as PDF">Print / Save PDF</button>
+    <button id="cont-toggle" onclick="toggleCont()" class="action-btn primary">20% contingency: ON</button>
+  </div>
+  </div>
+
+  <div class="results-grid">
+    <div class="res-box">
+      <div class="res-label">Low estimate</div>
+      <div class="res-val" id="r-lo">£0</div>
+      <div class="res-sub">Best-case / minimal spec</div>
+    </div>
+    <div class="res-box">
+      <div class="res-label">High estimate</div>
+      <div class="res-val" id="r-hi">—</div>
+      <div class="res-sub">Premium parts / all pro</div>
+    </div>
+    <div class="res-box">
+      <div class="res-label">Midpoint</div>
+      <div class="res-val orange" id="r-mid">—</div>
+      <div class="res-sub">Most realistic budget</div>
+    </div>
+    <div class="res-box">
+      <div class="res-label">DIY saving vs all-pro</div>
+      <div class="res-val green" id="r-save">—</div>
+      <div class="res-sub">By doing it yourself</div>
+    </div>
+  </div>
+
+  <div class="breakdown-wrap">
+    <table class="breakdown-table" id="breakdown-table">
+      <thead>
+        <tr>
+          <th style="width:40%">Feature</th>
+          <th>Mode</th>
+          <th style="text-align:right">Range</th>
+        </tr>
+      </thead>
+      <tbody id="breakdown-body">
+        <tr class="empty-row"><td colspan="3">No features selected — toggle items above</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- AD SLOT: Rectangle (300×250) — high-intent placement post-estimate -->
+<div class="ad-slot ad-slot-rectangle" style="max-width:100%;">
+  <!-- Ad: 300×250 Rectangle — Google AdSense / Mediavine / Ezoic -->
+</div>
+
+<!-- ── INFO CARDS ────────────────────────────────────── -->
+<div class="info-grid">
+  <div class="info-card red">
+    <div class="info-card-title">⚠ Legal requirements</div>
+    <ul>
+      <li>Gas: legal for personal DIY if you're "competent" — for rental a Gas Safe engineer must sign off (BS EN 1949)</li>
+      <li>Electrics must meet BS7671. Get an auto-electrician inspection even on DIY wiring — insurers can reject claims otherwise</li>
+      <li>Travel seats must be crash-tested and fixed — homemade bench seats are not road-legal</li>
+      <li>CO alarm + smoke detector legally required wherever gas appliances are fitted</li>
+    </ul>
+  </div>
+  <div class="info-card blue">
+    <div class="info-card-title">📋 DVLA reclassification</div>
+    <ul>
+      <li>Optional but beneficial — only ~20% of applications approved even for perfect builds</li>
+      <li>Needs: fixed bed, permanent hob/microwave, seating+table, storage, side windows, awning rail, high-top (pop-tops excluded)</li>
+      <li>Benefits: lower insurance, higher speed limits (70mph dual carriageway), Class 4 MOT, cheaper ferry crossings</li>
+      <li>Reclassification is free via V5C — you may need to transport the van for DVLA inspection</li>
+    </ul>
+  </div>
+  <div class="info-card green">
+    <div class="info-card-title">🛡 Insurance &amp; running costs</div>
+    <ul>
+      <li>Specialist campervan insurance: £600–£2,000/yr</li>
+      <li>Campervans are typically 10–50% cheaper to insure than commercial vans</li>
+      <li>Notify your insurer before you start converting — standard van cover may already be void</li>
+      <li>Gas Safe certificate essential if you plan to rent the van out</li>
+    </ul>
+  </div>
+  <div class="info-card amber">
+    <div class="info-card-title">⚖ Weight &amp; licensing</div>
+    <ul>
+      <li>Exceeding your van's MAM = fines + invalidated insurance</li>
+      <li>Over 3.5 tonnes requires a C1 licence beyond a standard UK driving licence</li>
+      <li>LWB Sprinter builds with full fit-out can easily approach the 3.5t limit</li>
+      <li>Get a weighbridge check once complete — costs ~£20 at most haulage depots</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ── TIPS ───────────────────────────────────────────── -->
+<div class="tips-row">
+  <div class="tip-card">
+    <div class="tip-icon">⚡</div>
+    <div class="tip-title">Wire big now</div>
+    <div class="tip-txt">Run cables rated for a larger system from day one. Retrofitting wiring is the most expensive van build mistake possible.</div>
+  </div>
+  <div class="tip-card">
+    <div class="tip-icon">🔌</div>
+    <div class="tip-title">DIY wire, pro inspect</div>
+    <div class="tip-txt">Self-install electrics then pay an auto-electrician £100–200 to check it. Saves £800+ vs full professional install.</div>
+  </div>
+  <div class="tip-card">
+    <div class="tip-icon">📐</div>
+    <div class="tip-title">Cardboard before wood</div>
+    <div class="tip-txt">68% of builds go over budget. Mock up every cabinet in cardboard first. Mistakes in card cost nothing.</div>
+  </div>
+  <div class="tip-card">
+    <div class="tip-icon">🪵</div>
+    <div class="tip-title">Reclaim timber</div>
+    <div class="tip-txt">Construction site offcuts and Facebook Marketplace plywood slash furniture costs by 40–60%.</div>
+  </div>
+  <div class="tip-card">
+    <div class="tip-icon">🛒</div>
+    <div class="tip-title">Screwfix over B&Q</div>
+    <div class="tip-txt">B&Q fixings and sealant often cost 2× more. Budget £150–300 separately for consumables — everyone underestimates this.</div>
+  </div>
+  <div class="tip-card">
+    <div class="tip-icon">📊</div>
+    <div class="tip-title">20% buffer, always</div>
+    <div class="tip-txt">Build in a contingency. Rust, leaks, wrong parts, delivery delays — something will go wrong. Budget for it upfront.</div>
+  </div>
+</div>
+
+</div><!-- /wrap -->
+
+
+<!-- ── FAQ ───────────────────────────────────────────── -->
+<div class="faq-section">
+  <div class="sec-row" style="padding-top:2rem;">
+    <span class="sec-id">FAQ</span>
+    <span class="sec-title">Common questions about van conversion costs</span>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q" onclick="toggleFaq(this)">How much does a van conversion cost in the UK in 2025?<span class="faq-chevron">▼</span></div>
+    <div class="faq-a">Van conversion costs in the UK range from around <strong>£1,500 for a very basic DIY build</strong> to over <strong>£30,000 for a fully professional fit-out</strong>. A realistic mid-range DIY conversion with insulation, electrics, solar, a kitchen and a fixed bed typically costs <strong>£4,000–£10,000 in parts</strong> for a medium-sized van like a Ford Transit. Professional conversion companies charge £10,000–£25,000 for a comparable build.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="toggleFaq(this)">Is it cheaper to convert a van yourself?<span class="faq-chevron">▼</span></div>
+    <div class="faq-a">Yes — significantly. DIY van conversions typically cost <strong>40–60% less</strong> than hiring a professional company. A professional build that costs £15,000 might cost £6,000–£9,000 in materials if you do the labour yourself. The most cost-effective approach is a <strong>hybrid build</strong>: DIY the carpentry, insulation and fitting, then pay an auto-electrician and a Gas Safe engineer to inspect or install the technical systems.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="toggleFaq(this)">How long does a van conversion take?<span class="faq-chevron">▼</span></div>
+    <div class="faq-a">The average DIY van conversion takes approximately <strong>445 hours</strong> of work from start to finish. Most part-time builders working weekends complete a full conversion in <strong>3–6 months</strong>. Rushing is one of the biggest causes of costly mistakes — the cardboard mock-up stage, taking time to plan the layout and wiring routes before cutting anything, saves significant time and money later.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="toggleFaq(this)">What is the most expensive part of a van conversion?<span class="faq-chevron">▼</span></div>
+    <div class="faq-a">The <strong>electrical system</strong> is typically the most expensive single component, costing £700–£1,800 professionally installed and £300–£900 in parts for a competent DIY build. <strong>Lithium battery upgrades</strong> add another £400–£900 but are worth the cost for full-time use. Custom cabinetry and high-spec kitchens can also easily exceed £2,000–£4,000 at the professional end. On full professional builds, <strong>labour is usually the biggest cost</strong> overall.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="toggleFaq(this)">Which van is best for a conversion?<span class="faq-chevron">▼</span></div>
+    <div class="faq-a">The <strong>Mercedes Sprinter LWB and Ford Transit LWB</strong> are the most popular choices for full-time living builds — they offer maximum usable space (~4.3m load bay) and a huge community of converters providing advice and parts. For budget builds, the <strong>Ford Transit SWB or Fiat Ducato SWB</strong> offer an excellent balance of space, cost and reliability. Avoid older high-mileage Sprinters with the OM612 engine (known for expensive injector issues) unless you know the full service history.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="toggleFaq(this)">Do I need a Gas Safe certificate for a van conversion?<span class="faq-chevron">▼</span></div>
+    <div class="faq-a">You can legally install gas yourself for personal use in a UK van conversion, but you must be competent to do so and follow BS EN 1949. However, if you plan to <strong>rent the van out</strong>, a Gas Safe registered engineer must inspect and certify the gas system — this is a legal requirement. A gas safety certificate costs approximately <strong>£80–£150</strong>. Even if renting isn't planned, getting a sign-off is strongly recommended as uncertified gas systems can <strong>invalidate your insurance</strong> and create liability issues.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="toggleFaq(this)">Should I register my converted van as a motor caravan with the DVLA?<span class="faq-chevron">▼</span></div>
+    <div class="faq-a">Reclassification as a "motor caravan" is optional but has real benefits: <strong>lower insurance premiums</strong> (campervans are typically 10–50% cheaper to insure than commercial vans), higher speed limits (70mph on dual carriageways vs 60mph for vans), and potentially cheaper ferry fares. The process is free but notoriously difficult — only around <strong>20% of applications are approved</strong>. Common rejection reasons are missing awning rails, no motor caravan graphics, or a pop-top roof (which the DVLA does not count as a high-top).</div>
+  </div>
+</div>
+
+<!-- AD SLOT: Banner (728×90) — footer proximity, high viewability -->
+<div class="ad-slot ad-slot-banner" style="max-width:1020px;margin:2rem auto;">
+  <!-- Ad: 728×90 Banner — Google AdSense / Mediavine / Ezoic -->
+</div>
+
+<footer>
+  <p>Van Conversion Cost Estimator UK &mdash; Free campervan build budget calculator. Real UK 2025 market data.</p>
+  <p>Estimates are indicative only. Always get written quotes from qualified tradespeople before committing to any work. Gas and electrical installations should be inspected by qualified professionals regardless of who installs them.</p>
+  <p style="margin-top:.5rem;">
+    <a href="https://www.gassaferegister.co.uk" target="_blank" rel="noopener">Gas Safe Register</a> &nbsp;&middot;&nbsp;
+    <a href="https://www.gov.uk/government/publications/converting-a-vehicle-into-a-motor-caravan" target="_blank" rel="noopener">DVLA motor caravan guidance</a> &nbsp;&middot;&nbsp;
+    <a href="https://vanjunkies.co.uk" target="_blank" rel="noopener">Van Junkies</a> &nbsp;&middot;&nbsp;
+    <a href="https://www.camplify.co.uk" target="_blank" rel="noopener">Camplify UK</a>
+  </p>
+  <p style="margin-top:.5rem;">Sources: Van Junkies &middot; Camplify UK &middot; Vanify &middot; Nohma &middot; Just Kampers Insurance &middot; GOV.UK DVLA &middot; The Feral Way &middot; Bhode Vans &middot; SSL Conversions</p>
+  <p style="margin-top:.75rem;opacity:.5;">&copy; 2025 vanconversioncost.co.uk &nbsp;&middot;&nbsp; All prices are estimates based on UK market data and builder community reports</p>
+</footer>
+
+<script>
+// ─── DATA ────────────────────────────────────────────────────────────────────
+// Groups ordered by skill complexity, lowest first.
+// Each group has a color, skill label, and features list.
+// Features: { id, emoji, name, sub, diy:[lo,hi], pro:[lo,hi], sM, sL, legal, defaults }
+
+
+// ─── CONSTRAINTS ─────────────────────────────────────────────────────────────
+// Per feature, per van size: 'ok' | 'warn:message' | 'no:message'
+var CONSTRAINTS = {
+  shower:    { small: 'no:No space in a small van — exterior shower only', medium: 'warn:Very tight — only feasible if toilet is omitted', large: 'ok' },
+  toilet:    { small: 'warn:Cassette toilet only — no room for composting unit', medium: 'ok', large: 'ok' },
+  furniture: { small: 'warn:Very limited cabinetry — prioritise bed over storage', medium: 'ok', large: 'ok' },
+  bed:       { small: 'warn:Fixed bed not possible — rock & roll or fold-flat only', medium: 'ok', large: 'ok' },
+  kitunit:   { small: 'warn:Compact kitchen only — single burner, small sink', medium: 'ok', large: 'ok' },
+  hotwater:  { small: 'no:No space for a boiler — portable inline heater only', medium: 'warn:Feasible but limits layout options', large: 'ok' },
+  watersys:  { small: 'warn:20–40L tank only — no room for full system', medium: 'ok', large: 'ok' },
+  roofrack:  { small: 'warn:Reduced load capacity — max 50–70kg on a small van roof', medium: 'ok', large: 'ok' },
+  awning:    { small: 'warn:Small awnings only (Fiamma F35 or similar) — limited shade', medium: 'ok', large: 'ok' },
+  aircon:    { small: 'no:Roof-mounted DC aircon not feasible — evaporative cooler only', medium: 'warn:DC aircon possible but dominates the roof', large: 'ok' },
+  solar:     { small: 'warn:100–200W max on a small van roof', medium: 'ok', large: 'ok' },
+  windows:   { small: 'warn:One side window typically possible — rear window harder', medium: 'ok', large: 'ok' },
+  hookup:    { small: 'ok', medium: 'ok', large: 'ok' },
+  lithium:   { small: 'ok', medium: 'ok', large: 'ok' },
+  electrics: { small: 'warn:Limited battery space — plan carefully under the seat', medium: 'ok', large: 'ok' }
+};
+
+function getConstraint(fid, size){
+  if(!CONSTRAINTS[fid] || !CONSTRAINTS[fid][size]) return 'ok';
+  return CONSTRAINTS[fid][size];
+}
+function constraintType(c){ return c.split(':')[0]; }
+function constraintMsg(c){ return c.includes(':') ? c.split(':').slice(1).join(':') : ''; }
+
+var GROUPS = [
+  {
+    id: 'prep',
+    title: 'Preparation & Foundation',
+    color: '#E8673A',
+    skillLabel: 'Complete beginner',
+    skillColor: '#E8673A',
+    features: [
+      { id:'rustproof', emoji:'🛡️', name:'Rust treatment & prep',
+        sub:'Wire brush, rust converter, underseal. Essential before any build starts.',
+        diy:[80,250], pro:[200,600], sM:1.1, sL:1.3, legal:null,
+        info:'Rust is the silent build killer. Even a van that looks clean externally can have hidden rust under rubberised underseal, around wheel arches, and along the floor seams.<br><br><strong>What to do:</strong> Wire brush all bare metal, apply rust converter (Kurust or Jenolite) to any active rust spots, then coat with an underseal or chassis paint. Pay special attention to door sills and floor joins.<br><br><strong>DIY or pro?</strong> Entirely DIY-able. Most builders do this themselves. It just takes time and isn\'t glamorous. Budget a full day minimum.',
+        def:{ beginner:'diy', confident:'diy' } },
+      { id:'sounddead', emoji:'🔇', name:'Sound deadening',
+        sub:'Kilmat / Dodo Mat applied to floor, walls, and roof panels.',
+        diy:[100,300], pro:[250,550], sM:1.25, sL:1.6, legal:null,
+        info:'Vans are essentially metal boxes — without deadening they drum like a tin drum at motorway speeds and amplify every road noise.<br><br><strong>How it works:</strong> Butyl-based mats (Kilmat, Dodo Mat, or the pricier brand names) add mass to panels, damping the resonance. You apply it to 25–30% coverage — not wall-to-wall — then cover with foam or insulation.<br><br><strong>DIY difficulty:</strong> Very low. A roller, a heat gun, and patience. Most builders do 2–3 weekends worth.',
+        def:{ beginner:'diy', confident:'diy' } },
+      { id:'insulation', emoji:'🧱', name:'Insulation',
+        sub:'Foam board, sheep wool or spray foam. Critical for comfort year-round.',
+        diy:[200,500], pro:[500,1100], sM:1.25, sL:1.6, legal:null,
+        tiers:{ budget:{ diy:[150,300], pro:[400,800] }, premium:{ diy:[300,600], pro:[700,1400] } },
+        tierLabels:['Foam board','Sheep wool / Thinsulate'],
+        info:'Proper insulation is what separates a comfortable van from one that sweats in summer and freezes in winter. It also prevents condensation — the biggest long-term threat to any build.<br><br><strong>Types:</strong><br>• <strong>Foam board (XPS)</strong> — cheap, easy to cut, good R-value but rigid and harder to fit curves<br>• <strong>Sheep wool / Thinsulate</strong> — flexible, moisture-wicking, excellent for curves and cavities, significantly more expensive<br>• <strong>Spray foam</strong> — fills every gap but is permanent and makes future repairs very difficult<br><br><strong>Key areas:</strong> Floor, walls, ceiling, wheel arches. Metal studs cause thermal bridging — insulate or break the bridge with wooden battens.',
+        def:{ beginner:'diy', confident:'diy' } },
+      { id:'flooring', emoji:'🟫', name:'Flooring',
+        sub:'Ply subfloor + vinyl, laminate or carpet finish.',
+        diy:[150,400], pro:[350,900], sM:1.2, sL:1.5, legal:null,
+        tiers:{ budget:{ diy:[100,250], pro:[250,600] }, premium:{ diy:[250,500], pro:[500,1100] } },
+        tierLabels:['Basic vinyl','Quality LVP / rubber'],
+        info:'The floor is one of the hardest things to redo once the rest of the build is in, so get it right first time.<br><br><strong>Layers from bottom up:</strong><br>1. Van steel floor (treat with rust converter first)<br>2. Insulation layer (20–30mm XPS foam board)<br>3. 9mm ply subfloor (screwed or glued)<br>4. Finish layer: vinyl, LVP, or rubber matting<br><br><strong>Budget vinyl</strong> is functional and easy to clean. <strong>LVP (luxury vinyl plank)</strong> clicks together, looks great, and is fully waterproof. Rubber matting (like Altro) is the most durable option for wet van life.',
+        def:{ beginner:'diy', confident:'diy' } },
+    ]
+  },
+  {
+    id: 'structure',
+    title: 'Structure & Living Space',
+    color: '#2AB8A0',
+    skillLabel: 'Basic carpentry',
+    skillColor: '#2AB8A0',
+    features: [
+      { id:'windows', emoji:'🪟', name:'Windows (side / rear)',
+        sub:'Must be toughened or laminated safety glass. Required for DVLA reclassification.',
+        diy:[400,900], pro:[600,1500], sM:1.2, sL:1.5, legal:'legal',
+        info:'Windows are required for DVLA reclassification as a motor caravan. They also transform the feel of a van — natural light makes a huge psychological difference when living in a small space.<br><br><strong>Legal requirement:</strong> Must be toughened or laminated safety glass — no perspex or polycarbonate panels for the main windows. At least one side window is needed for DVLA classification.<br><br><strong>DIY risk:</strong> Cutting a hole in your van is nerve-wracking but achievable. A jigsaw, a rubber seal, and patience. The main risk is cutting wrong — measure three times. Many builders get a local window fitter to do the cutting and fitting.',
+        def:{ beginner:'pro', confident:'diy' } },
+      { id:'roofvent', emoji:'💨', name:'Roof vent / fan',
+        sub:'Maxxair or Fiamma. Legally required ventilation with gas appliances.',
+        diy:[150,350], pro:[250,600], sM:1.0, sL:1.0, legal:'legal',
+        info:'A roof vent or fan is arguably more important than the heater. Without airflow, condensation builds rapidly — wet insulation, mould risk, and miserable mornings.<br><br><strong>Legal note:</strong> Adequate ventilation is legally required when gas appliances are fitted.<br><br><strong>Recommended options:</strong><br>• <strong>Maxxair Fan</strong> — the gold standard for van life. Variable speed, reversible, rain cover that lets you run it in wet weather<br>• <strong>Fiamma Vent</strong> — simpler, cheaper, less capable but still functional<br><br><strong>DIY difficulty:</strong> Moderate — you\'re cutting a hole in your roof. Correct sealing is critical to prevent leaks.',
+        def:{ beginner:'pro', confident:'diy' } },
+      { id:'bed', emoji:'🛏️', name:'Bed frame & storage',
+        sub:'Fixed or convertible platform with underbed drawers or garage space.',
+        diy:[300,1000], pro:[800,2500], sM:1.15, sL:1.3, legal:null,
+        info:'The bed is the single most important comfort decision in the whole build. Everything else fits around it.<br><br><strong>Fixed vs convertible:</strong><br>• <strong>Fixed bed</strong> (length-wise or crosswise): More comfortable, no setup faff, but takes up more floor area. Requires a longer van.<br>• <strong>Rock & roll bed</strong>: Seat by day, bed at night. Saves space but can be fatiguing if you\'re moving every night<br>• <strong>Pull-out / fold-flat</strong>: Middle ground — slightly more setup but good use of space<br><br><strong>Mattress:</strong> Budget £80–250 for a decent foam mattress cut to size. Quality sleep is worth it for long trips.',
+        def:{ beginner:'diy', confident:'diy' } },
+      { id:'furniture', emoji:'🪑', name:'Seating, cabinets & cladding',
+        sub:'Fixed seating, overhead lockers, ply wall panels, interior finishing.',
+        diy:[400,1200], pro:[1200,3500], sM:1.2, sL:1.5, legal:null,
+        info:'The cabinetry sets the finished quality of the build more than almost anything else.<br><br><strong>DIY options:</strong><br>• <strong>Ply construction</strong> — most common, strong, holds screws well. Face with painted MDF, timber veneer, or left raw<br>• <strong>IKEA kitchen units</strong> — surprisingly van-friendly. Many builders hack Metod units to fit<br>• <strong>Reclaimed wood</strong> — characterful, cheap if sourced well<br><br><strong>Key considerations:</strong> Weight (it all adds up), ensuring everything is secured against travel forces, and making sure overhead storage can\'t swing open while driving.',
+        def:{ beginner:'diy', confident:'diy' } },
+      { id:'blinds', emoji:'🪩', name:'Window blinds & privacy screens',
+        sub:'Thermal Remis blinds or DIY fabric. Essential for stealth and warmth.',
+        diy:[80,300], pro:[200,600], sM:1.1, sL:1.2, legal:null,
+        info:'Essential for stealth camping (sleeping in lay-bys, car parks), temperature management, and privacy at campsites.<br><br><strong>Options:</strong><br>• <strong>Remis thermal blinds</strong> — van-specific blinds that fit into the rubber seal of each window. Excellent insulation, but expensive (£30–80 per window)<br>• <strong>DIY insulated covers</strong> — cut Reflectix or foam board to window shape, cover in black fabric. Free with scraps, effective but slow to fit each night<br>• <strong>Cab curtain</strong> — a simple curtain across the cab divides the living space from the cab windows. Essential.',
+        def:{ beginner:'diy', confident:'diy' } },
+    ]
+  },
+  {
+    id: 'power',
+    title: 'Electrical & Power Systems',
+    color: '#C4DA3C',
+    skillLabel: 'Moderate — read before wiring',
+    skillColor: '#C4DA3C',
+    features: [
+      { id:'electrics', emoji:'🔋', name:'12V electrical system',
+        sub:'Leisure battery, split-charge relay, LED lighting, USB sockets, fuse box.',
+        diy:[300,900], pro:[700,1800], sM:1.0, sL:1.0, legal:'legal',
+        info:'The 12V electrical system is the nervous system of the build. It powers your lights, charges your devices, runs the fridge, and feeds everything else. Getting it right from the start saves expensive reruns later.<br><br><strong>Core components:</strong><br>• <strong>Leisure battery</strong> — separate from the starter battery. AGM or lithium.<br>• <strong>Split-charge relay / B2B charger</strong> — charges leisure battery while driving<br>• <strong>Fuse box</strong> — protects every circuit<br>• <strong>LED lighting</strong> — 12V strips or puck lights throughout<br><br><strong>Legal note:</strong> Wiring must comply with BS7671. Even DIY wiring should be inspected by a qualified auto-electrician before use — invalid wiring can void your insurance.',
+        def:{ beginner:'pro', confident:'diy' } },
+      { id:'solar', emoji:'☀️', name:'Solar panels (200–400W)',
+        sub:'Roof-mounted + MPPT charge controller. Size up for off-grid living.',
+        diy:[500,1100], pro:[800,1800], sM:1.0, sL:1.0, legal:null,
+        tiers:{ budget:{ diy:[350,700], pro:[600,1200] }, premium:{ diy:[700,1400], pro:[1000,2200] } },
+        tierLabels:['Budget panels','Victron / Renogy'],
+        info:'Solar is the single biggest quality-of-life upgrade for off-grid living. A well-sized solar system means never worrying about battery levels on sunny days.<br><br><strong>System sizing:</strong><br>• 100–200W: Phone charging, LED lighting, small fan<br>• 200–400W: Fridge, laptop, lighting — comfortable 3-season use<br>• 400W+: Full-time off-grid, remote work, occasional induction cooking<br><br><strong>Budget panels vs quality:</strong> Budget panels work but have variable quality control. Victron, Renogy, and Sunpower offer better real-world output and longer warranties.',
+        def:{ beginner:'pro', confident:'diy' } },
+      { id:'lithium', emoji:'⚡', name:'Lithium battery upgrade (LiFePO4)',
+        sub:'Deeper discharge, 10+ yr lifespan. Worth the cost for full-time use.',
+        diy:[400,900], pro:[500,1100], sM:1.0, sL:1.0, legal:null,
+        info:'Lithium (LiFePO4) batteries are significantly better than AGM lead-acid in almost every way — but cost roughly 3× more upfront.<br><br><strong>Advantages:</strong><br>• Discharge to 20% vs 50% for AGM — roughly double usable capacity per £<br>• Much lighter (roughly half the weight of AGM)<br>• 2,000–4,000 charge cycles vs 300–500 for AGM<br>• Charges faster<br><br><strong>Worth it if:</strong> You\'re living in the van full-time or doing frequent off-grid trips. Less worthwhile for occasional weekenders where AGM is cheaper and perfectly adequate.',
+        def:{ beginner:'pro', confident:'diy' } },
+      { id:'inverter', emoji:'🔌', name:'240V inverter',
+        sub:'Converts 12V to mains power. Run laptops, kettles, power tools on-site.',
+        diy:[150,400], pro:[250,600], sM:1.0, sL:1.0, legal:null,
+        info:'An inverter converts your 12V leisure battery power into 240V mains electricity — letting you run laptops, kettles, and power tools from your battery bank.<br><br><strong>Sizing:</strong><br>• 300–600W: Laptops, phone chargers, small appliances<br>• 1000–2000W: Kettles, hair dryers (briefly), power tools<br>• 3000W+: Induction hob — needs a large battery and solar system to sustain<br><br><strong>Important:</strong> A large inverter can drain batteries very fast. Don\'t size an inverter larger than your battery bank can realistically support.',
+        def:{ beginner:'pro', confident:'diy' } },
+      { id:'hookup', emoji:'🏕️', name:'Mains hook-up (EHU)',
+        sub:'230V campsite hook-up socket. Charge batteries and run appliances from the grid.',
+        diy:[100,250], pro:[200,500], sM:1.0, sL:1.0, legal:null,
+        info:'A mains hook-up (EHU) socket lets you plug into a campsite\'s 230V power supply — charging your batteries, running appliances, and eliminating battery anxiety at paid sites.<br><br><strong>What it includes:</strong> An exterior 16A socket (blue camping plug), consumer unit, RCD protection, and internal 240V sockets connected to a battery charger.<br><br><strong>Worth having if:</strong> You use campsites regularly. Makes winter van life far more practical — you can run a fan heater instead of burning diesel, charge everything, and run an electric blanket.',
+        def:{ beginner:'pro', confident:'diy' } },
+    ]
+  },
+  {
+    id: 'kitchen',
+    title: 'Kitchen & Cooking',
+    color: '#E0943A',
+    skillLabel: 'Basic — mostly assembly',
+    skillColor: '#E0943A',
+    features: [
+      { id:'kitunit', emoji:'🍳', name:'Kitchen unit & worktop',
+        sub:'Countertop housing, drawers, worktop. Permanent hob needed for DVLA reclassification.',
+        diy:[500,1500], pro:[1200,4000], sM:1.1, sL:1.3, legal:'legal',
+        tiers:{ budget:{ diy:[300,800], pro:[800,2000] }, premium:{ diy:[800,2500], pro:[2000,5000] } },
+        tierLabels:['Flatpack / IKEA','Custom cabinetry'],
+        info:'The kitchen is the heart of the van. Most builders spend more time here than anywhere else in the build.<br><br><strong>What to consider:</strong><br>• <strong>Worktop depth</strong> — standard kitchen worktops (600mm) are too deep. Most builds use 400–500mm depth<br>• <strong>Drawers vs cupboards</strong> — drawers with push-to-close catches stay shut on the move<br>• <strong>Sink placement</strong> — near a window for natural light and gas hob ventilation<br><br><strong>Budget approach:</strong> IKEA Metod units are very popular — well-made, available in small sizes, and hackable to fit most van layouts.<br><br><strong>Legal note:</strong> A permanently mounted hob or microwave is required for DVLA reclassification.',
+        def:{ beginner:'diy', confident:'diy' } },
+      { id:'fridge', emoji:'❄️', name:'12V compressor fridge',
+        sub:'BougeRV, Iceco, Alpicool, Dometic. Runs off leisure battery.',
+        diy:[200,500], pro:[200,500], sM:1.0, sL:1.0, legal:null,
+        tiers:{ budget:{ diy:[80,180], pro:[80,180] }, premium:{ diy:[300,700], pro:[300,700] } },
+        tierLabels:['BougeRV / Alpicool','Dometic / Waeco'],
+        info:'A 12V compressor fridge is one of the most life-changing upgrades in a van build. Proper cold food storage changes what you cook and how long you can stay off-grid.<br><br><strong>Budget brands (BougeRV, Alpicool, Iceco):</strong> £80–180. Functional for occasional use, shorter lifespan, noisier compressors.<br><br><strong>Dometic / Waeco / Engel:</strong> £300–700. Significantly more efficient, more reliable, quieter, and used by professionals worldwide.<br><br><strong>Power draw:</strong> A fridge runs 24/7. Budget 30–60W average draw and size your battery and solar system around it first.',
+        def:{ beginner:'diy', confident:'diy' } },
+      { id:'gas', emoji:'🔥', name:'Gas hob & LPG system',
+        sub:'Hob, gas locker, regulator, copper pipework. DIY legal for personal use only.',
+        diy:[250,700], pro:[500,1400], sM:1.0, sL:1.0, legal:'gas',
+        info:'Gas is the most cost-effective way to cook in a van. LPG hobs are responsive, cheap to run, and familiar.<br><br><strong>Legal position:</strong> You can legally install gas yourself for personal use, but you must be competent. For rental, a Gas Safe engineer must inspect and certify the work (BS EN 1949).<br><br><strong>What\'s needed:</strong> A gas locker (vented, sealed from living space), LPG bottle, regulator, copper pipework to hob, and ideally a gas drop-out vent at floor level.<br><br><strong>Safety essentials:</strong> CO alarm, gas alarm at floor level, fire extinguisher, and ensuring adequate ventilation whenever gas is alight.',
+        def:{ beginner:'pro', confident:'pro' } },
+      { id:'hotwater', emoji:'🚰', name:'Hot water system',
+        sub:'Truma Combi, Webasto water heater, or gas boiler. Hot water to sink & shower.',
+        diy:[300,800], pro:[600,1500], sM:1.0, sL:1.0, legal:null,
+        info:'Hot running water at the kitchen sink transforms van life, especially in colder months.<br><br><strong>Options:</strong><br>• <strong>Truma Combi</strong> — heats both water and air space heating from one unit. LPG-powered, very efficient, expensive but excellent<br>• <strong>Webasto water heater</strong> — diesel, integrates with the diesel heater circuit<br>• <strong>Gas boiler</strong> — simpler, cheaper. Requires gas system already installed<br>• <strong>12V inline heater</strong> — low-cost option (£50–150) but only lukewarm water and high power draw<br><br>Pair with a quality 12–20L accumulator tank for steady pressure.',
+        def:{ beginner:'pro', confident:'pro' } },
+    ]
+  },
+  {
+    id: 'water',
+    title: 'Water & Plumbing',
+    color: '#4A9ED4',
+    skillLabel: 'Moderate plumbing',
+    skillColor: '#4A9ED4',
+    features: [
+      { id:'watersys', emoji:'💧', name:'Water system (fresh + grey)',
+        sub:'70L fresh tank, electric pump, sink, grey water tank, filler point.',
+        diy:[150,500], pro:[300,900], sM:1.0, sL:1.2, legal:null,
+        info:'The water system affects every day of van life. Good design makes cooking and washing effortless; a poorly planned system is a constant frustration.<br><br><strong>Components:</strong><br>• <strong>Fresh water tank</strong> — 40–100L depending on use. Under-bed or bench-mounted. Gravity-fill from outside<br>• <strong>12V electric pump</strong> — Shurflo or Jabsco. An accumulator tank reduces pump cycling noise<br>• <strong>Grey water tank</strong> — legally required at many campsites. 20–50L under the van or in a bench<br><br><strong>Tank material:</strong> Food-grade polyethylene only. Never reuse chemical or fuel containers.',
+        def:{ beginner:'pro', confident:'diy' } },
+      { id:'toilet', emoji:'🚽', name:'Toilet',
+        sub:'Porta Potti £60–150. Composting (Nature\'s Head, OGO) £300–500. Fixed cassette £250–600.',
+        diy:[60,500], pro:[150,700], sM:1.0, sL:1.0, legal:null,
+        tiers:{ budget:{ diy:[60,150], pro:[150,300] }, premium:{ diy:[300,600], pro:[400,800] } },
+        tierLabels:['Porta Potti','Composting (Nature\'s Head)'],
+        info:'Whether to include a toilet is one of the most personal build decisions.<br><br><strong>Options:</strong><br>• <strong>Porta Potti</strong> (£60–150): Chemical toilet in a portable box. Requires emptying at campsite chemical disposal points<br>• <strong>Composting toilet</strong> (Nature\'s Head, OGO — £300–600): No chemicals, separates liquid and solid waste. The preferred choice for full-time off-grid living<br>• <strong>Cassette toilet</strong> (£250–600): Fixed unit with a removable cassette tank<br><br>Many van lifers skip a toilet entirely and use campsites, gyms, and nature.',
+        def:{ beginner:'diy', confident:'diy' } },
+      { id:'shower', emoji:'🚿', name:'Indoor shower',
+        sub:'Full wet room or shower pod. Most complex plumbing task in any van build.',
+        diy:[300,1200], pro:[800,2500], sM:1.0, sL:1.2, legal:null,
+        info:'A proper indoor shower is the most controversial feature in van builds — it takes up significant space, adds plumbing complexity, and most van lifers rarely use it.<br><br><strong>Consider alternatives first:</strong><br>• Gym membership (£20–40/mo) — many full-timers use this<br>• Outdoor shower off the rear doors — simple solar shower bag or 12V pump<br>• Campsite facilities<br><br><strong>If you do build one:</strong> Wet rooms need proper sealing (tanking membrane), a drain with a grey water tank, ventilation to prevent mould, and a water heater. Plan the layout carefully — shower space and toilet space are often combined.',
+        def:{ beginner:'pro', confident:'pro' } },
+    ]
+  },
+  {
+    id: 'climate',
+    title: 'Heating & Climate',
+    color: '#D45888',
+    skillLabel: 'Moderate — follow instructions carefully',
+    skillColor: '#D45888',
+    features: [
+      { id:'heating', emoji:'🌡️', name:'Diesel heater',
+        sub:'Chinese clone (Vevor/Autoterm) £150–300. Branded Webasto/Eberspächer £500–800.',
+        diy:[150,800], pro:[400,1200], sM:1.0, sL:1.0, legal:null,
+        tiers:{ budget:{ diy:[100,300], pro:[300,600] }, premium:{ diy:[500,900], pro:[700,1400] } },
+        tierLabels:['Chinese clone','Webasto / Eberspächer'],
+        info:'A diesel heater is what makes year-round van life possible in the UK. It uses fuel from your van\'s tank and produces genuine warmth — far more efficient than electric heating from batteries.<br><br><strong>Chinese clones (Vevor, Hcalory, Autoterm):</strong> £100–300. Work well when they work, but quality control varies. A large online community provides diagnosis and support.<br><br><strong>Branded (Webasto, Eberspächer):</strong> £500–800 for the unit. Far more reliable, quieter, and easier to get professionally serviced. Worth the premium for full-time use.<br><br><strong>Installation tips:</strong> Fuel pickup from tank is best. Exhaust must exit safely clear of the van body.',
+        def:{ beginner:'pro', confident:'diy' } },
+      { id:'aircon', emoji:'❄️', name:'Air conditioning / evaporative cooler',
+        sub:'12V evaporative cooler £100–300. Full DC aircon (Webasto/Dometic) £800–2,500.',
+        diy:[100,500], pro:[600,2500], sM:1.0, sL:1.0, legal:null,
+        tiers:{ budget:{ diy:[80,300], pro:[200,500] }, premium:{ diy:[500,1200], pro:[900,2800] } },
+        tierLabels:['Evaporative cooler','DC aircon (Webasto/Dometic)'],
+        info:'Air conditioning is genuinely useful for UK summers — but adds significant cost and power complexity.<br><br><strong>Evaporative cooler</strong> (£80–300): Uses water evaporation to cool air. Effective in dry heat, less effective in humid British weather. Very low power draw.<br><br><strong>Portable compressor aircon</strong> (£200–500): Real refrigerant-based cooling but needs venting outside — awkward in a sealed van.<br><br><strong>Roof-mounted DC aircon (Webasto / Dometic RTX)</strong> (£900–2,500+): Proper fixed unit. Draws 25–40A — requires a large lithium battery bank and significant solar to run sustainably.',
+        def:{ beginner:'pro', confident:'pro' } },
+    ]
+  },
+  {
+    id: 'exterior',
+    title: 'Exterior & Accessories',
+    color: '#6BAA7A',
+    skillLabel: 'Beginner to moderate',
+    skillColor: '#6BAA7A',
+    features: [
+      { id:'awning', emoji:'⛺', name:'Awning (Fiamma F45 / Thule)',
+        sub:'Fiamma F45S from £300 + fitting. Creates outdoor living space on the side.',
+        diy:[300,700], pro:[500,1100], sM:1.0, sL:1.0, legal:null,
+        tiers:{ budget:{ diy:[100,300], pro:[250,500] }, premium:{ diy:[350,700], pro:[550,1200] } },
+        tierLabels:['Budget / generic','Fiamma F45 / Thule'],
+        info:'An awning transforms your outdoor space — turning the side of the van into a sheltered living area. Essential for campsites and anywhere with a good view.<br><br><strong>Popular options:</strong><br>• <strong>Fiamma F45S</strong>: The most popular van awning. Wall-mounted wind-out, robust aluminium case, from £300 self-fitted<br>• <strong>Thule Omnistor</strong>: Premium alternative, marginally more expensive<br>• <strong>Budget / generic</strong>: A basic awning rail plus a tarp or driveaway tent. Much cheaper and still effective<br><br><strong>Fitting note:</strong> Awning rails bolt through the van wall and must be thoroughly sealed against leaks.',
+        def:{ beginner:'diy', confident:'diy' } },
+      { id:'roofrack', emoji:'📦', name:'Roof rack',
+        sub:'Aluminium roof rack for solar, bikes, kayaks, or extra storage.',
+        diy:[200,600], pro:[400,1000], sM:1.0, sL:1.1, legal:null,
+        info:'A roof rack opens up enormous storage and mounting options — solar panels, kayaks, bikes, a rooftop tent, or just extra gear.<br><br><strong>Types:</strong><br>• <strong>Ladder rack / strut channel</strong>: DIY-buildable from Unistrut or aluminium extrusion. Cheap, strong, and customisable<br>• <strong>Thule / Rhino Rack</strong>: Premium ready-made systems. More expensive but clean and well-engineered<br>• <strong>Custom aluminium</strong>: Welded to specification. Strong but needs a fabricator<br><br><strong>Weight consideration:</strong> Every kilo up high raises your centre of gravity. Factor roof load into your MAM (maximum authorised mass) calculations.',
+        def:{ beginner:'diy', confident:'diy' } },
+      { id:'bikerack', emoji:'🚲', name:'Bike rack (Fiamma Carry-Bike)',
+        sub:'Rear-mounted bike carrier. Fiamma Carry-Bike Pro from £130.',
+        diy:[130,350], pro:[200,500], sM:1.0, sL:1.0, legal:null,
+        info:'A bike rack is one of the most practical van accessories if you cycle — it keeps muddy bikes out of the living space and makes them easily accessible.<br><br><strong>Fiamma Carry-Bike range:</strong> The industry standard. The Pro versions (Pro 01, 02) mount to a drilled bracket on the rear doors. From £130 for a single to £280+ for a double.<br><br><strong>Alternatives:</strong><br>• Internal storage (takes up living space but more secure)<br>• Roof mounting (harder to load but clears the rear doors)<br><br><strong>Security:</strong> External bike racks make bikes visible and vulnerable. A bike lock through the rack and frame is essential.',
+        def:{ beginner:'diy', confident:'diy' } },
+      { id:'camera', emoji:'📷', name:'Reversing camera',
+        sub:'Wireless or wired. Essential for larger vans. Amazon kits from £40, quality units £100–200.',
+        diy:[40,200], pro:[100,350], sM:1.0, sL:1.0, legal:null,
+        info:'A reversing camera is practically essential on larger vans where rear visibility is zero through the back doors.<br><br><strong>Options:</strong><br>• <strong>Wireless Amazon kits</strong> (£40–80): Easy to fit, can be unreliable, lower image quality<br>• <strong>Wired systems</strong> (£80–200): More reliable, clearer image, slightly more involved to install<br>• <strong>Dash cam combo</strong>: Some units combine front dash cam with a rear reversing camera<br><br><strong>Installation:</strong> Camera mounts to rear door or above the plate. Run power to rear lights (activates automatically when reversing) or to a permanent 12V feed.',
+        def:{ beginner:'diy', confident:'diy' } },
+    ]
+  },
+  {
+    id: 'security',
+    title: 'Security & Safety',
+    color: '#8B6FBE',
+    skillLabel: 'Beginner — mostly plug & bolt-on',
+    skillColor: '#8B6FBE',
+    features: [
+      { id:'security', emoji:'🔒', name:'Security (locks, deadbolts, alarm)',
+        sub:'Slam locks, steering wheel lock, deadbolt. Hookup alarm £50–200. Full alarm £200–600.',
+        diy:[100,400], pro:[200,700], sM:1.0, sL:1.0, legal:null,
+        info:'Vans are targeted for theft — both the van itself and anything inside it. A layered security approach deters casual thieves and slows down determined ones.<br><br><strong>Recommended layers:</strong><br>• <strong>Slam locks</strong> on side and rear doors — standard door handles are trivially bypassed<br>• <strong>Steering wheel lock</strong> — visual deterrent<br>• <strong>Deadlocks</strong> — secondary bolt lock on each door<br>• <strong>Alarm + immobiliser</strong> — Thatcham Category 1 alarm for insurance recognition<br><br><strong>Insurance note:</strong> Some specialist campervan insurers require Thatcham-rated security to offer competitive premiums. Check before installing.',
+        def:{ beginner:'diy', confident:'diy' } },
+      { id:'tracker', emoji:'📡', name:'GPS tracker',
+        sub:'Subscription-based tracker. Reduces insurance cost. Fitting simple. Costs £50–200 + £5–15/mo.',
+        diy:[50,200], pro:[100,300], sM:1.0, sL:1.0, legal:null,
+        info:'A GPS tracker is one of the cheapest and most effective security upgrades you can make — and most specialist campervan insurers will reduce premiums if one is fitted.<br><br><strong>How they work:</strong> A small device (ideally hidden) connects to the cellular network and reports your van\'s location. Monthly subscriptions are typically £5–15.<br><br><strong>Recommended types:</strong><br>• <strong>Hardwired (always-on)</strong>: Best for vans. Connect to a permanent 12V feed behind a panel<br>• <strong>Battery-powered</strong>: Easier to fit, but needs charging<br><br><strong>Popular options:</strong> Rewire Security, Apple AirTag (budget, less reliable), Monimoto.',
+        def:{ beginner:'diy', confident:'diy' } },
+      { id:'misc', emoji:'🔩', name:'Tools, fixings & consumables',
+        sub:'Screws, sealant, silicone, paint, sandpaper, drill bits. Always underestimated.',
+        diy:[150,400], pro:[150,400], sM:1.1, sL:1.3, legal:null,
+        info:'Consumables are the line item everyone forgets, and they add up faster than almost anything else in the build.<br><br><strong>What falls in here:</strong><br>• Screws, bolts, nuts, washers — buy in bulk assortment boxes<br>• Sealant: sikaflex, silicone, expanding foam — you\'ll use more than you think<br>• Sandpaper, primer, paint<br>• Drill bits (van steel is hard — cheap bits die fast)<br>• Cable ties, heat shrink, connectors<br>• Cleaning materials and panel wipes<br>• Soft furnishings: cushion foam, fabric, curtain rails<br><br><strong>Budget £150 minimum</strong> even for a simple build. Complex builds easily hit £400+.',
+        def:{ beginner:'diy', confident:'diy' } },
+    ]
+  },
+];
+
+// ─── STATE ────────────────────────────────────────────────────────────────────
+var S = { size:'small', skill:'beginner', items:{}, contingency:true };
+
+// flatten all features and init state
+GROUPS.forEach(function(g){
+  g.features.forEach(function(f){
+    S.items[f.id] = { on:false, mode: f.def.beginner, tier: f.tiers ? '' : null, customCost: null };
+  });
+});
+
+var SKILL_NOTES = {
+  beginner: 'BEGINNER MODE — gas, electrics, solar, plumbing &amp; complex installs defaulted to professional. Override any item below.',
+  confident: 'CONFIDENT DIYer — most items set to DIY. Gas still professional — it\'s the most legally complex. Override per item below.',
+};
+
+// ─── HELPERS ──────────────────────────────────────────────────────────────────
+function gbp(n){ return '£'+Math.round(n).toLocaleString('en-GB'); }
+function sm(f){ return S.size==='medium'?f.sM : S.size==='large'?f.sL : 1; }
+function rng(f,m){
+  var x=sm(f);
+  var item = S.items[f.id];
+  var tier = (f.tiers && item) ? item.tier : null;
+  if(tier === 'custom' && item.customCost !== null){
+    var c = Math.round(item.customCost);
+    return [c, c];
+  }
+  if(tier && f.tiers && f.tiers[tier] && f.tiers[tier][m]){
+    var t = f.tiers[tier][m];
+    return [Math.round(t[0]*x), Math.round(t[1]*x)];
+  }
+  return [Math.round(f[m][0]*x), Math.round(f[m][1]*x)];
+}
+function flat(){ var a=[]; GROUPS.forEach(function(g){ g.features.forEach(function(f){ a.push(f); }); }); return a; }
+
+// ─── PICK (size / skill) ──────────────────────────────────────────────────────
+function pick(type, el){
+  var grid = type==='size' ? 'size-grid' : 'skill-grid';
+  document.querySelectorAll('#'+grid+' .choice-btn').forEach(function(b){ b.classList.remove('on'); });
+  el.classList.add('on');
+  if(type==='size'){
+    S.size = el.dataset.val;
+    // Re-render groups to apply/remove size constraints
+    renderGroups();
+  } else {
+    S.skill = el.dataset.val;
+    document.getElementById('skill-note-txt').innerHTML = SKILL_NOTES[S.skill];
+    flat().forEach(function(f){ S.items[f.id].mode = f.def[S.skill]; });
+    refreshGroupUI();
+  }
+  recalc();
+}
+
+// ─── TOGGLE / MODE ────────────────────────────────────────────────────────────
+function tog(id, on){
+  S.items[id].on = on;
+  var row = document.getElementById('r-'+id);
+  if(!row) return;
+  row.className = 'feat'+(on?'':' off');
+  var cb = row.querySelector('input[type="checkbox"]');
+  if(cb) cb.checked = on;
+  row.querySelectorAll('.mode-pill').forEach(function(p){ p.classList.toggle('dis',!on); });
+  var tsel = row.querySelector('.tier-select');
+  if(tsel){ tsel.className = 'tier-select'+(on?'':' dis'); }
+  var cinp = row.querySelector('.custom-cost-input');
+  if(cinp){ cinp.className = 'custom-cost-input'+(on?'':' dis'); }
+  recalc();
+}
+function mode(id, m){
+  if(!S.items[id].on) return;
+  S.items[id].mode = m;
+  var row = document.getElementById('r-'+id);
+  if(!row) return;
+  var pills = row.querySelectorAll('.mode-pill');
+  pills[0].className = 'mode-pill'+(m==='diy'?' diy':'')+(S.items[id].on?'':' dis');
+  pills[1].className = 'mode-pill'+(m==='pro'?' pro':'')+(S.items[id].on?'':' dis');
+  recalc();
+}
+
+function setTier(id, tier){
+  if(!S.items[id].on) return;
+  S.items[id].tier = tier;
+  if(tier !== 'custom') S.items[id].customCost = null;
+  var row = document.getElementById('r-'+id);
+  if(!row) return;
+  var tsel = row.querySelector('.tier-select');
+  if(tsel){ tsel.value = tier; tsel.className = 'tier-select'+(S.items[id].on?'':' dis'); }
+  var ccw = document.getElementById('ccw-'+id);
+  if(ccw){ ccw.style.display = tier === 'custom' ? '' : 'none'; }
+  if(tier === 'custom'){
+    var inp = ccw && ccw.querySelector('.custom-cost-input');
+    if(inp) setTimeout(function(){ inp.focus(); }, 50);
+  }
+  var f = flat().find(function(x){ return x.id===id; });
+  if(f){
+    var dr = rng(f,'diy'), pr = rng(f,'pro');
+    var mpills = row.querySelectorAll('.mode-pill');
+    mpills[0].innerHTML = 'DIY<br><small style="font-weight:400;opacity:.8;">'+gbp(dr[0])+'–'+gbp(dr[1])+'</small>';
+    mpills[1].innerHTML = 'PRO<br><small style="font-weight:400;opacity:.8;">'+gbp(pr[0])+'–'+gbp(pr[1])+'</small>';
+  }
+  recalc();
+}
+
+function setCustomCost(id, val){
+  var n = parseFloat(val.replace(/[^0-9.]/g,''));
+  S.items[id].customCost = isNaN(n) ? null : n;
+  recalc();
+}
+
+// ─── RENDER ────────────────────────────────────────────────────────────────────
+function badge(l){
+  if(!l) return '';
+  if(l==='gas') return ' <span class="badge b-gas">Gas Safe</span>';
+  return ' <span class="badge b-legal">Legal</span>';
+}
+
+function buildRow(f){
+  var item = S.items[f.id];
+  var dr = rng(f,'diy'), pr = rng(f,'pro');
+  var c = getConstraint(f.id, S.size);
+  var ctype = constraintType(c);
+  var cmsg = constraintMsg(c);
+  var isBlocked = ctype === 'no';
+  var isWarn = ctype === 'warn';
+  if(isBlocked && item.on){ item.on = false; }
+  var off = item.on ? '' : ' off';
+  var dis = item.on ? '' : ' dis';
+  var extraClass = isBlocked ? ' blocked' : (isWarn && item.on ? ' constrained' : '');
+  var tierHTML = '';
+  if(f.tiers && f.tierLabels){
+    var t = item.tier || '';
+    var custVal = (item.customCost !== null && item.customCost !== undefined) ? item.customCost : '';
+    var custShow = t === 'custom' ? '' : 'display:none;';
+    tierHTML = '<span style="display:inline-flex;align-items:center;gap:6px;flex-wrap:wrap;">'
+      +'<select class="tier-select'+dis+'" onclick="event.stopPropagation()" onchange="setTier(\''+f.id+'\',this.value)" title="Quality tier">'
+      +'<option value="" disabled'+(t===''?' selected':'')+'>Select type…</option>'
+      +'<option value="budget"'+(t==='budget'?' selected':'')+'>'+f.tierLabels[0]+'</option>'
+      +'<option value="premium"'+(t==='premium'?' selected':'')+'>'+f.tierLabels[1]+'</option>'
+      +'<option value="custom"'+(t==='custom'?' selected':'')+'>Own price</option>'
+      +'</select>'
+      +'<span class="custom-cost-wrap" id="ccw-'+f.id+'" style="'+custShow+'" onclick="event.stopPropagation()">'
+      +'<span class="custom-cost-label">£</span>'
+      +'<input class="custom-cost-input'+dis+'" type="number" min="0" step="1" placeholder="0" value="'+(custVal||'')+'" oninput="setCustomCost(\''+f.id+'\',this.value)" onclick="event.stopPropagation()">'
+      +'</span>'
+      +'</span>';
+  }
+  return '<div class="feat'+off+extraClass+'" id="r-'+f.id+'"'+(isBlocked ? '' : ' onclick="tog(\''+f.id+'\',!S.items[\''+f.id+'\'].on)"')+'>'
+    +'<div class="feat-emoji">'+f.emoji+'</div>'
+    +'<div class="feat-info">'
+    +'<div class="feat-name">'+f.name+badge(f.legal)+(isBlocked?'<span class="badge b-no">Not feasible</span>':isWarn?'<span class="badge b-warn">Size warning</span>':'')+(f.info ? '<button class="info-btn" onclick="openInfo(\''+f.id+'\',event)" title="More info">i</button>' : '')+'</div>'
+    +'<div class="feat-sub">'+f.sub+'</div>'+(cmsg ? '<div class="constraint-msg'+(isBlocked?' blocked-msg':'')+'">'+cmsg+'</div>' : '')
+    +(tierHTML ? '<div style="margin-top:6px;">'+tierHTML+'</div>' : '')
+    +'</div>'
+    +'<div class="feat-mode" onclick="event.stopPropagation()">'
+    +'<button class="mode-pill'+(item.mode==='diy'?' diy':'')+dis+'" onclick="mode(\''+f.id+'\',\'diy\')">DIY<br><small style="font-weight:400;opacity:.8;">'+gbp(dr[0])+'–'+gbp(dr[1])+'</small></button>'
+    +'<button class="mode-pill'+(item.mode==='pro'?' pro':'')+dis+'" onclick="mode(\''+f.id+'\',\'pro\')">PRO<br><small style="font-weight:400;opacity:.8;">'+gbp(pr[0])+'–'+gbp(pr[1])+'</small></button>'
+    +'</div>'
+    +'<label class="tog" onclick="event.stopPropagation()"><input type="checkbox"'+(item.on?' checked':'')+' onchange="tog(\''+f.id+'\',this.checked)"><div class="tog-t"></div></label>'
+    +'</div>';
+}
+
+function buildGroup(g){
+  var rows = g.features.map(buildRow).join('');
+  var totalOn = g.features.filter(function(f){ return S.items[f.id].on; }).length;
+  return '<div class="skill-group" id="sg-'+g.id+'">'
+    +'<div class="sg-header" id="sgh-'+g.id+'" onclick="toggleGroup(\''+g.id+'\')">'
+    +'<span class="sg-color" style="background:'+g.color+'"></span>'
+    +'<span class="sg-title">'+g.title+'</span>'
+    +'<span class="sg-skill-label" style="background:'+g.color+'22;color:'+g.color+';">'+g.skillLabel+'</span>'
+    +'<span class="sg-count" id="sgc-'+g.id+'">'+totalOn+'/'+g.features.length+'</span>'
+    +'<span class="sg-chevron">▼</span>'
+    +'</div>'
+    +'<div class="sg-body" id="sgb-'+g.id+'">'+rows+'</div>'
+    +'</div>';
+}
+
+function renderGroups(){
+  document.getElementById('feature-groups').innerHTML = GROUPS.map(buildGroup).join('');
+}
+
+function refreshGroupUI(){
+  GROUPS.forEach(function(g){
+    g.features.forEach(function(f){
+      var item = S.items[f.id];
+      var row = document.getElementById('r-'+f.id);
+      if(!row) return;
+      var rc = getConstraint(f.id, S.size);
+      var rctype = constraintType(rc);
+      var rcBlocked = rctype === 'no';
+      var rcWarn = rctype === 'warn';
+      if(rcBlocked && item.on){ item.on = false; }
+      var rcExtra = rcBlocked ? ' blocked' : (rcWarn && item.on ? ' constrained' : '');
+      row.className = 'feat'+(item.on?'':' off')+rcExtra;
+      var pills = row.querySelectorAll('.mode-pill');
+      var dr = rng(f,'diy'), pr = rng(f,'pro');
+      pills[0].className = 'mode-pill'+(item.mode==='diy'?' diy':'')+(item.on?'':' dis');
+      pills[0].innerHTML = 'DIY<br><small style="font-weight:400;opacity:.8;">'+gbp(dr[0])+'–'+gbp(dr[1])+'</small>';
+      pills[1].className = 'mode-pill'+(item.mode==='pro'?' pro':'')+(item.on?'':' dis');
+      pills[1].innerHTML = 'PRO<br><small style="font-weight:400;opacity:.8;">'+gbp(pr[0])+'–'+gbp(pr[1])+'</small>';
+      if(f.tiers){
+        var tsel = row.querySelector('.tier-select');
+        if(tsel){ tsel.value = item.tier || ''; tsel.className = 'tier-select'+(item.on?'':' dis'); }
+        var ccw2 = document.getElementById('ccw-'+f.id);
+        if(ccw2){ ccw2.style.display = item.tier === 'custom' ? '' : 'none'; }
+      }
+    });
+  });
+}
+
+function refreshPills(){
+  GROUPS.forEach(function(g){
+    g.features.forEach(function(f){
+      var item = S.items[f.id];
+      var row = document.getElementById('r-'+f.id);
+      if(!row) return;
+      var pills = row.querySelectorAll('.mode-pill');
+      var dr = rng(f,'diy'), pr = rng(f,'pro');
+      pills[0].innerHTML = 'DIY<br><small style="font-weight:400;opacity:.8;">'+gbp(dr[0])+'–'+gbp(dr[1])+'</small>';
+      pills[1].innerHTML = 'PRO<br><small style="font-weight:400;opacity:.8;">'+gbp(pr[0])+'–'+gbp(pr[1])+'</small>';
+    });
+  });
+}
+
+function toggleGroup(id){
+  var hdr = document.getElementById('sgh-'+id);
+  var body = document.getElementById('sgb-'+id);
+  var collapsed = hdr.classList.toggle('collapsed');
+  body.classList.toggle('hidden', collapsed);
+}
+
+// ─── CALCULATE ────────────────────────────────────────────────────────────────
+function recalc(){
+  var lo=0, hi=0, allProLo=0, allProHi=0, count=0;
+  var rows = [];
+
+  flat().forEach(function(f){
+    var item = S.items[f.id];
+    var pr = rng(f,'pro');
+    allProLo += pr[0]; allProHi += pr[1];
+    if(!item.on) return;
+    count++;
+    var r = rng(f, item.mode);
+    lo += r[0]; hi += r[1];
+    rows.push({name:f.name, mode:item.mode, lo:r[0], hi:r[1], custom:item.tier==='custom'});
+  });
+
+  var mid = Math.round((lo+hi)/2);
+  var cont = S.contingency ? Math.round(mid*.2) : 0;
+  var total = mid + cont;
+  var allProMid = Math.round((allProLo+allProHi)/2);
+  var saving = allProMid - mid;
+
+  // update group counts
+  GROUPS.forEach(function(g){
+    var on = g.features.filter(function(f){ return S.items[f.id].on; }).length;
+    var el = document.getElementById('sgc-'+g.id);
+    if(el) el.textContent = on+'/'+g.features.length;
+  });
+
+  document.getElementById('r-lo').textContent = count ? gbp(lo) : '£0';
+  document.getElementById('r-hi').textContent = count ? gbp(hi) : '—';
+  document.getElementById('r-mid').textContent = count ? gbp(mid) : '—';
+  document.getElementById('r-save').textContent = count && saving>0 ? gbp(saving) : '—';
+  document.getElementById('topbar-total').textContent = count ? gbp(total)+' est.' : '£0 estimated';
+  var pf = document.getElementById('progress-fill');
+  var pl = document.getElementById('progress-label');
+  if(pf) pf.style.width = Math.round(count/30*100)+'%';
+  if(pl) pl.textContent = count+' of 30 features selected';
+
+  var tbody = document.getElementById('breakdown-body');
+  if(!rows.length){
+    tbody.innerHTML = '<tr class="empty-row"><td colspan="3">No features selected — toggle items above</td></tr>';
+    return;
+  }
+  var html = rows.map(function(r){
+    var costCell = r.custom
+      ? gbp(r.lo)
+      : gbp(r.lo)+'–'+gbp(r.hi);
+    var midCell = r.custom
+      ? '<span style="color:var(--txt3);font-family:var(--mono);font-size:10px;">own price</span>'
+      : gbp(Math.round((r.lo+r.hi)/2));
+    return '<tr>'
+      +'<td>'+r.name+' <span class="tmode '+r.mode+'">'+r.mode.toUpperCase()+'</span></td>'
+      +'<td style="color:var(--txt3);font-family:var(--mono);font-size:11px;">'+midCell+'</td>'
+      +'<td>'+costCell+'</td>'
+      +'</tr>';
+  }).join('');
+  if(S.contingency){
+    html += '<tr class="cont-row">'
+      +'<td colspan="2" style="color:var(--txt3)">20% contingency buffer</td>'
+      +'<td style="text-align:right">+'+gbp(cont)+'</td>'
+      +'</tr>';
+  }
+  html += '<tr class="total-row">'
+    +'<td colspan="2">Total'+(S.contingency?' inc. contingency':'')+' · '+count+' feature'+(count!==1?'s':'')+' selected</td>'
+    +'<td>'+gbp(total)+'</td>'
+    +'</tr>';
+  tbody.innerHTML = html;
+}
+
+// ─── INFO MODAL ──────────────────────────────────────────────────────────────────
+function openInfo(id, evt){
+  evt.stopPropagation();
+  var f = flat().find(function(x){ return x.id===id; });
+  if(!f || !f.info) return;
+  document.getElementById('info-modal-emoji').textContent = f.emoji;
+  document.getElementById('info-modal-title').textContent = f.name;
+  document.getElementById('info-modal-body').innerHTML = f.info;
+  document.getElementById('info-overlay').style.display = 'block';
+  document.getElementById('info-modal').style.display = 'block';
+}
+function closeInfo(){
+  document.getElementById('info-overlay').style.display = 'none';
+  document.getElementById('info-modal').style.display = 'none';
+}
+document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeInfo(); });
+
+// ─── CONTINGENCY TOGGLE ──────────────────────────────────────────────────────────
+function toggleCont(){
+  S.contingency = !S.contingency;
+  var btn = document.getElementById('cont-toggle');
+  if(btn){
+    btn.textContent = '20% contingency: '+(S.contingency ? 'ON' : 'OFF');
+    btn.style.borderColor = S.contingency ? 'var(--orange)' : 'var(--line2)';
+    btn.style.background  = S.contingency ? 'var(--orange-d)' : 'transparent';
+    btn.style.color       = S.contingency ? 'var(--orange)' : 'var(--txt3)';
+  }
+  recalc();
+}
+
+// ─── UTILITIES ──────────────────────────────────────────────────────────────────
+function resetAll(){
+  Object.keys(S.items).forEach(function(id){
+    S.items[id].on = false;
+    S.items[id].mode = S.items[id].mode; // preserve mode preference
+    S.items[id].tier = flat().find(function(f){ return f.id===id; }) && flat().find(function(f){ return f.id===id; }).tiers ? '' : null;
+    S.items[id].customCost = null;
+  });
+  renderGroups();
+  recalc();
+}
+
+function printEstimate(){
+  window.print();
+}
+
+function toggleFaq(el){
+  var item = el.parentElement;
+  var isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(function(i){ i.classList.remove('open'); });
+  if(!isOpen) item.classList.add('open');
+}
+
+// ─── INIT ─────────────────────────────────────────────────────────────────────
+renderGroups();
+recalc();
+</script>
+
+<!-- INFO MODAL -->
+<div id="info-overlay" onclick="closeInfo()" style="display:none;position:fixed;inset:0;background:rgba(28,26,21,0.55);z-index:1000;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);"></div>
+<div id="info-modal" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:1001;width:min(540px,94vw);background:#FDFAF5;border:1.5px solid rgba(28,26,21,0.18);border-top:3px solid #2B5C3F;border-radius:10px;overflow:hidden;box-shadow:0 20px 60px rgba(28,26,21,0.2);">
+  <div style="padding:1.25rem 1.5rem;border-bottom:1px solid rgba(28,26,21,0.1);display:flex;align-items:center;justify-content:space-between;gap:1rem;background:#F7F3EC;">
+    <div style="display:flex;align-items:center;gap:12px;">
+      <span id="info-modal-emoji" style="font-size:22px;"></span>
+      <span id="info-modal-title" style="font-family:'Playfair Display',serif;font-size:15px;font-weight:600;color:#1C1A15;"></span>
+    </div>
+    <button onclick="closeInfo()" style="background:rgba(28,26,21,0.06);border:1px solid rgba(28,26,21,0.15);color:#6B6558;cursor:pointer;font-size:14px;line-height:1;padding:5px 9px;border-radius:6px;transition:background .13s;" onmouseover="this.style.background='rgba(28,26,21,0.1)'" onmouseout="this.style.background='rgba(28,26,21,0.06)'">✕</button>
+  </div>
+  <div id="info-modal-body" style="padding:1.4rem 1.5rem;font-size:13px;color:#3D3A30;line-height:1.85;max-height:65vh;overflow-y:auto;"></div>
+</div>
+
+</body>
+</html>
